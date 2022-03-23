@@ -132,9 +132,21 @@ main{
 .announcements{
     margin-left: 10px;
 }
+
 .trending h2{
     color: #271033;
 }
 .announcements h2{
     color: #271033;
+}
+.announce-container{
+    border: 2px solid #271033;
+    padding-left: 5px;
+}
+.trend-container{
+    border: 2px solid #271033;
+    padding: 10px;
+}
+.tag{
+    padding: 5px;
 }
