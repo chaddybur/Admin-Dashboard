@@ -1,0 +1,140 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 3fr;
+    color: #E9F1F7;
+
+}
+
+.logo{
+    margin-left: 3rem;
+    font-size: x-large;
+}
+nav{
+    grid-area: 1/1/3/2;
+    color: #E9F1F7;
+    background-color: #271033;
+    padding-top: 3rem;
+}
+nav li{
+    list-style: none;
+    padding: 1rem;
+}
+nav i{
+    margin-right: 1rem;
+}
+nav .group-2{
+    padding-top: 2rem;
+}
+header{
+    grid-area: 1/2/2/3;
+    width: 100%;
+    background-color: #6883BA;
+}
+header i {
+    margin-left: 10px;
+    margin-top: 1.2rem;
+
+}
+.row-1{
+    width:100%;
+    display: flex;
+    margin-bottom: 2rem;;
+    
+}
+.bell{
+    margin-left: 15rem;
+    margin-top: .2rem;;
+
+}
+.cat-logo{
+    width: 4rem;
+    height: 4rem;
+    margin-left: 2.5rem;
+    margin-top: .25rem;
+    border-radius: 25px;
+}
+.row-1 h3{
+    margin-left: 1rem;
+    margin-top: 1rem;
+    
+
+}
+header input{
+    margin-left: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    height: 20px;
+    width: 40%;
+    padding: 2px 23px 2px 30px;
+    outline: 0;
+    background-color: #E9F1F7;
+    margin-top: 1rem;
+}
+header button{
+    width: 5rem;
+    height: 2rem;
+}
+.row-2{
+    width:100%;
+    display: flex;
+    margin: 0;
+}
+main{
+    grid-area: 2/2/3/3;
+    display: grid;
+    grid-template-columns: 2fr 2fr 1.5fr;
+    background-color: #E28413;
+}
+.small{
+    font-size: small;
+}
+.row-2 .cat-logo{
+    margin-top: 1.5rem;
+    margin-right: 1rem;
+}
+
+.row-2 button{
+    background-color: #271033;
+    color: #E9F1F7;
+    border-radius: 15px;
+    margin-top: 3rem;
+    margin-left: 1rem;
+}
+.buttons{
+    margin-left: 12rem;
+}
+.projects-container{
+    grid-area: 1/1/2/3;
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin: 0;
+}
+.card{
+    color: #E9F1F7;
+    background-color: #6883BA;
+    border-left:5px solid #271033;
+    gap: 1rem;
+    margin-top: 1rem;
+    margin-left: .5rem;
+    padding: 5px;
+}
+.card ul{
+    display: flex;
+    flex-flow: row-reverse;
+
+}
+.card li{
+    list-style: none;
+    margin: 5px;
+}
+.announcements{
+    margin-left: 10px;
+}
+.trending h2{
+    color: #271033;
+}
+.announcements h2{
+    color: #271033;
+}
